@@ -1,0 +1,7 @@
+.popup__container_image {
+  width: auto;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+}

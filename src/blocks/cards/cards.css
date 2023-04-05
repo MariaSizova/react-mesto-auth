@@ -1,0 +1,31 @@
+.cards {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  /*
+  -ms-grid-columns: 1fr 17px 1fr 17px 1fr;
+  */
+  grid-template-columns: repeat(3, 1fr);
+  /*
+  -ms-grid-rows: 1fr 17px 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  */
+  gap: 17px;
+}
+
+
+@media screen and (max-width: 984px) {
+  .cards {
+    width: 581px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .cards {
+    width: 282px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

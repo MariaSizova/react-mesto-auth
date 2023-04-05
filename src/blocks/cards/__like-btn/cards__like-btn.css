@@ -1,0 +1,20 @@
+.cards__like-btn {
+  border: none;
+  background: none;
+  background-image: url(../../../images/vector_love.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 19px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  }
+
+.cards__like-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

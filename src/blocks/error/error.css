@@ -1,0 +1,16 @@
+.error {
+  color: #FF0000;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 5px;
+  min-height: 30px;
+  text-align: left;
+  width: 358px;
+}
+
+@media screen and (max-width: 710px) {
+  .error {
+    width: 238px;
+  }
+}
